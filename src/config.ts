@@ -17,10 +17,10 @@ export const LOCALE = {
 } as const;
 
 export const LOGO_IMAGE = {
-  enable: false,
+  enable: true,
   svg: true,
-  width: 216,
-  height: 46,
+  width: 50,
+  height: 50,
 };
 
 export const SOCIALS: SocialObjects = [
@@ -46,12 +46,12 @@ export const SOCIALS: SocialObjects = [
     name: "Twitter",
     href: "https://twitter.com/mohmdhidr",
     linkTitle: `${SITE.title} on Twitter`,
-    active: false,
+    active: true,
   },
   {
     name: "CodePen",
     href: "https://codepen.io/mhmdhidr",
     linkTitle: `${SITE.title} on CodePen`,
-    active: false,
+    active: true,
   },
 ];

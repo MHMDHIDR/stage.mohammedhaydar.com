@@ -1,158 +1,99 @@
-# AstroPaper 📄
+<a href="https://github.com/MHMDHIDR">
+<img alt="Profile Picture" src="https://raw.githubusercontent.com/MHMDHIDR/mhmdhidr/main/public/banner.png" width="700" height="300" />
+</a>
 
-![AstroPaper](public/astropaper-og.jpg)
-![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![GitHub](https://img.shields.io/github/license/satnaing/astro-paper?color=%232F3741&style=for-the-badge)
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white&style=for-the-badge)](https://conventionalcommits.org)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=for-the-badge)](http://commitizen.github.io/cz-cli/)
+<a href="https://github.com/MHMDHIDR">
+<h2 style="display: inline-block">Hi There!</h2>
+<img alt="handwavegif" src="https://user-images.githubusercontent.com/39513876/112366216-8cfe7400-8cfe-11eb-8116-7d3dbae20e97.gif" width="40" />
+</a>
 
-AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro blog theme. This theme is designed and crafted based on [my personal blog](https://satnaing.dev/blog).
+![version :21.10.2023](https://img.shields.io/badge/version-21.10.2023-informational)&nbsp;
+![profile count](https://komarev.com/ghpvc/?username=MHMDHIDR&color=red)&nbsp;
+[![GitHub MHMDHIDR](https://img.shields.io/github/followers/MHMDHIDR?label=follow&style=social)](https://github.com/MHMDHIDR)&nbsp;
+![build: passing](https://img.shields.io/badge/build-passing-success)
 
-This theme follows best practices and provides accessibility out of the box. Light and dark mode are supported by default. Moreover, additional color schemes can also be configured.
+> ### 👨🏻‍💻 &nbsp;About Me
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. Read [the blog posts](https://astro-paper.pages.dev/posts/) or check [the README Documentation Section](#-documentation) for more info.
+💡 &nbsp; I'm a passionate web developer and a lifelong learner, juggling my time between freelance projects and being a dedicated student. I specialize in the MERN Stack, NextJS, and tRPC, crafting digital experiences that come to life.
 
-## 🔥 Features
+🌍 &nbsp; Exploring the vibrant world of online eCommerce is my current adventure, conducting research to push the boundaries of what's possible in this space.
 
-- [x] type-safe markdown
-- [x] super fast performance
-- [x] accessible (Keyboard/VoiceOver)
-- [x] responsive (mobile ~ desktops)
-- [x] SEO-friendly
-- [x] light & dark mode
-- [x] fuzzy search
-- [x] draft posts & pagination
-- [x] sitemap & rss feed
-- [x] followed best practices
-- [x] highly customizable
-- [x] dynamic OG image generation for blog posts [#15](https://github.com/satnaing/astro-paper/pull/15) ([Blog Post](https://astro-paper.pages.dev/posts/dynamic-og-image-generation-in-astropaper-blog-posts/))
+🎓 &nbsp; I'm currently a student at Middlesex University, London (Class of 2023-24), where I'm honing my skills and nurturing my curiosity.
 
-_Note: I've tested screen-reader accessibility of AstroPaper using **VoiceOver** on Mac and **TalkBack** on Android. I couldn't test all other screen-readers out there. However, accessibility enhancements in AstroPaper should be working fine on others as well._
+🎓 &nbsp; I earned my stripes at Aptech Qatar Education Center back in 2017, where I first ignited my passion for technology and programming.
 
-## ✅ Lighthouse Score
+🔍 &nbsp; Beyond the code, I'm captivated by the realms of Computer Vision and the captivating yet somewhat mysterious world of Deepfake technologies.
 
-<p align="center">
-  <a href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fastro-paper.pages.dev%2F&form_factor=desktop">
-    <img width="710" alt="AstroPaper Lighthouse Score" src="AstroPaper-lighthouse-score.svg">
-  <a>
-</p>
+🎥 &nbsp; When I'm not coding, you'll find me in the cinema, binging on series, or simply basking in the warmth of a beautiful sunset.
 
-## 🚀 Project Structure
+💬 &nbsp; I'm always up for a conversation, whether it's about web development, exciting job opportunities, or just a friendly chat. Don't hesitate to reach out!
 
-Inside of AstroPaper, you'll see the following folders and files:
+✉️ &nbsp; You can drop me a line at info@mohammedhaydar.com, and I'll do my best to get back to you as fast as code compiles.
 
-```bash
-/
-├── public/
-│   ├── assets/
-│   │   └── logo.svg
-│   │   └── logo.png
-│   └── favicon.svg
-│   └── astropaper-og.jpg
-│   └── robots.txt
-│   └── toggle-theme.js
-├── src/
-│   ├── assets/
-│   │   └── socialIcons.ts
-│   ├── components/
-│   ├── content/
-│   │   |  blog/
-│   │   |    └── some-blog-posts.md
-│   │   └── config.ts
-│   ├── layouts/
-│   └── pages/
-│   └── styles/
-│   └── utils/
-│   └── config.ts
-│   └── types.ts
-└── package.json
-```
+📄 &nbsp; For a deeper dive into my professional journey, check out my [Resume](https://drive.google.com/file/d/1Z_tnRp6xDhmISvM9thfuR1Ufe2MKkZaG/view?usp=sharing).
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+> ### 🛠 &nbsp;Tech Stack
 
-Any static assets, like images, can be placed in the `public/` directory.
+<!-- 1- Javascript -->
+<a href="https://www.javascript.com">
+  <img src="https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript" width="70" height="20" />
+</a>
+&nbsp;
+<!-- 2- NextJS -->
+<a href="https://www.nextjs.org">
+  <img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs" width="70" height="20" />
+</a>
+&nbsp;
+<!-- 3- TailwindCSS -->
+<a href="https://www.tailwindcss.com">
+  <img src="https://img.shields.io/badge/-Tailwindcss-05122A?style=flat&logo=tailwindcss&logoColor=563D7C" width="70" height="20" />
+</a>
 
-All blog posts are stored in `src/content/blog` directory.
+<!-- 4- SASS Lang -->
+<a href="https://www.sass-lang.com">
+  <img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white" width="70" height="20" />
+</a>
+&nbsp;
+<!-- 5- HTML -->
+<a href="https://html.spec.whatwg.org/multipage">
+  <img src="https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5" width="50" height="20" />
+</a>
+&nbsp;
+<!-- 6- CSS -->
+<a href="https://www.w3.org/Style/CSS/Overview.en.html">
+  <img src="https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6" width="50" height="20" />
+</a>
+&nbsp;
+<!-- 7- Git Version Control System -->
+<a href="https://git-scm.com">
+  <img src="https://img.shields.io/badge/-Git-05122A?style=flat&logo=git" width="50" height="20" />
+</a>
+&nbsp
+<!-- 8- Yarn Package Manager; -->
+<a href="https://www.yarnpkg.com">
+  <img src="https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white" width="50" height="20" />
+</a>
+&nbsp;
+<!-- 9- Github -->
+<a href="https://www.github.com">
+  <img src="https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github" width="70" height="20" />
+</a>
+&nbsp;
+<!-- 10- Visual Studio Code -->
+<a href="https://code.visualstudio.com">
+  <img src="https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code&logoColor=007ACC" width="120" height="20" />
+</a>
 
-## 📖 Documentation
+&nbsp;
 
-Documentation can be read in two formats\_ _markdown_ & _blog post_.
+> ### 📫 &nbsp;How to reach me
 
-- Configuration - [markdown](src/content/blog/how-to-configure-astropaper-theme.md) | [blog post](https://astro-paper.pages.dev/posts/how-to-configure-astropaper-theme/)
-- Add Posts - [markdown](src/content/blog/adding-new-post.md) | [blog post](https://astro-paper.pages.dev/posts/adding-new-posts-in-astropaper-theme/)
-- Customize Color Schemes - [markdown](src/content/blog/customizing-astropaper-theme-color-schemes.md) | [blog post](https://astro-paper.pages.dev/posts/customizing-astropaper-theme-color-schemes/)
-- Predefined Color Schemes - [markdown](src/content/blog/predefined-color-schemes.md) | [blog post](https://astro-paper.pages.dev/posts/predefined-color-schemes/)
-
-> For AstroPaper v1, check out [this branch](https://github.com/satnaing/astro-paper/tree/astro-paper-v1) and this [live URL](https://astro-paper-v1.astro-paper.pages.dev/)
-
-## 💻 Tech Stack
-
-**Main Framework** - [Astro](https://astro.build/)  
-**Type Checking** - [TypeScript](https://www.typescriptlang.org/)  
-**Component Framework** - [ReactJS](https://reactjs.org/)  
-**Styling** - [TailwindCSS](https://tailwindcss.com/)  
-**UI/UX** - [Figma](https://figma.com)  
-**Fuzzy Search** - [FuseJS](https://fusejs.io/)  
-**Icons** - [Boxicons](https://boxicons.com/) | [Tablers](https://tabler-icons.io/)  
-**Code Formatting** - [Prettier](https://prettier.io/)  
-**Deployment** - [Cloudflare Pages](https://pages.cloudflare.com/)  
-**Illustration in About Page** - [https://freesvgillustration.com](https://freesvgillustration.com/)  
-**Linting** - [ESLint](https://eslint.org)
-
-## 👨🏻‍💻 Running Locally
-
-The easiest way to run this project locally is to run the following command in your desired directory.
-
-```bash
-# npm 6.x
-npm create astro@latest --template satnaing/astro-paper
-
-# npm 7+, extra double-dash is needed:
-npm create astro@latest -- --template satnaing/astro-paper
-
-# yarn
-yarn create astro --template satnaing/astro-paper
-```
-
-## Google Site Verification (optional)
-
-You can easily add your [Google Site Verification HTML tag](https://support.google.com/webmasters/answer/9008080#meta_tag_verification&zippy=%2Chtml-tag) in AstroPaper using environment variable. This step is optional. If you don't add the following env variable, the google-site-verification tag won't appear in the html `<head>` section.
-
-```bash
-# in your environment variable file (.env)
-PUBLIC_GOOGLE_SITE_VERIFICATION=your-google-site-verification-value
-```
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-> **_Note!_** For `Docker` commands we must have it [installed](https://docs.docker.com/engine/install/) in your machine.
-
-| Command                              | Action                                                                                                                           |
-| :----------------------------------- | :------------------------------------------------------------------------------------------------------------------------------- |
-| `npm install`                        | Installs dependencies                                                                                                            |
-| `npm run dev`                        | Starts local dev server at `localhost:4321`                                                                                      |
-| `npm run build`                      | Build your production site to `./dist/`                                                                                          |
-| `npm run preview`                    | Preview your build locally, before deploying                                                                                     |
-| `npm run format:check`               | Check code format with Prettier                                                                                                  |
-| `npm run format`                     | Format codes with Prettier                                                                                                       |
-| `npm run sync`                       | Generates TypeScript types for all Astro modules. [Learn more](https://docs.astro.build/en/reference/cli-reference/#astro-sync). |
-| `npm run cz`                         | Commit code changes with commitizen                                                                                              |
-| `npm run lint`                       | Lint with ESLint                                                                                                                 |
-| `docker compose up -d`               | Run AstroPaper on docker, You can access with the same hostname and port informed on `dev` command.                              |
-| `docker compose run app npm install` | You can run any command above into the docker container.                                                                         |
-
-> **_Warning!_** Windows PowerShell users may need to install the [concurrently package](https://www.npmjs.com/package/concurrently) if they want to [run diagnostics](https://docs.astro.build/en/reference/cli-reference/#astro-check) during development (`astro check --watch & astro dev`). For more info, see [this issue](https://github.com/satnaing/astro-paper/issues/113).
-
-## ✨ Feedback & Suggestions
-
-If you have any suggestions/feedback, you can contact me via [my email](mailto:contact@satnaing.dev). Alternatively, feel free to open an issue if you find bugs or want to request new features.
-
-## 📜 License
-
-Licensed under the MIT License, Copyright © 2023
-
----
-
-Made with 🤍 by [Sat Naing](https://satnaing.dev) 👨🏻‍💻 and [contributors](https://github.com/satnaing/astro-paper/graphs/contributors).
+<a href="https://www.linkedin.com/in/mohammedhaydar">
+<img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=flat&logo=linkedin&logoColor=white"/></a>
+&nbsp;
+<a href="mailto:info@mohammedhaydar.com">
+<img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" /></a>
+&nbsp;
+<a href="https://instagram.com/mo.hidr">
+<img alt="Instagram" src="https://img.shields.io/badge/-Instagram_-E4405F?style=flat&logo=Instagram&logoColor=white"/></a>
+&nbsp;

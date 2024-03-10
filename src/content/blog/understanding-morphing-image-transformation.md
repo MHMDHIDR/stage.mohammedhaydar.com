@@ -1,6 +1,6 @@
 ---
 author: Mohammed Haydar
-pubDatetime: 2023-11-28T17:59:04.866Z
+pubDatetime: 2023-11-28T17:30:04.866Z
 title: Understanding Morphing | Image Transformation
 slug: understanding-morphing-image-transformation
 featured: false

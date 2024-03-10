@@ -1,12 +1,20 @@
 ---
 export interface Props {
-  noPadding?: boolean;
-  ariaHidden?: boolean;
+  children?: string;
+  className?: string;
 }
 
-const { noPadding = false, ariaHidden = true } = Astro.props;
+const { children = '', className = '' } = Astro.props;
 ---
 
-<div class={`max-w-3xl mx-auto ${noPadding ? "px-0" : "px-4"}`}>
-  <hr class="border-skin-line" aria-hidden={ariaHidden} />
+<div
+  class={`flex container mx-auto relative justify-center items-center m-6 before:[background:linear-gradient(90deg,transparent,#555,transparent)] dark:before:[background:linear-gradient(90deg,transparent,#999,transparent)] before:absolute before:left-0 before:top-1/2 before:w-full before:h-px${
+    className ? ' ' + className : ''
+  }`}
+>
+  {children ? (
+    <span class='dark:text-neutral-200 bg-white dark:bg-gray-800 z-10 px-2'>
+      {children}
+    </span>
+  ) : null}
 </div>

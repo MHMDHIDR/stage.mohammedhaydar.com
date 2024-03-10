@@ -1,6 +1,6 @@
 ---
 author: Mohammed Haydar
-pubDatetime: 2023-06-15T09:59:04.866Z
+pubDatetime: 2023-06-15T09:35:04.866Z
 title: How to install NodeJs
 slug: how-to-install-nodejs
 featured: false

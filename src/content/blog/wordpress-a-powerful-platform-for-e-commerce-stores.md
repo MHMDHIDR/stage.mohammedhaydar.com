@@ -1,6 +1,6 @@
 ---
 author: Mohammed Haydar
-pubDatetime: 2023-10-14T20:59:04.866Z
+pubDatetime: 2023-10-14T20:16:04.866Z
 title: A Powerful Platform for E-commerce Stores
 slug: wordpress-a-powerful-platform-for-e-commerce-stores
 featured: false

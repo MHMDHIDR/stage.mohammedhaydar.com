@@ -1,6 +1,6 @@
 ---
 author: Mohammed Haydar
-pubDatetime: 2023-11-28T15:59:04.866Z
+pubDatetime: 2023-11-28T15:17:04.866Z
 title: Web Design Trends 2023
 slug: web-design-trends-2023
 featured: false

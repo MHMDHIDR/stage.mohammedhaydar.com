@@ -1,6 +1,6 @@
 ---
 author: Mohammed Haydar
-pubDatetime: 2024-01-09T04:59:04.866Z
+pubDatetime: 2024-01-09T04:40:04.866Z
 title: Evolution of Electronic Music and Audio Synthesis | A Comprehensive Overview
 slug: evolution-of-electronic-music-and-audio-synthesis-a-comprehensive-overview
 featured: false

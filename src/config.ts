@@ -1,13 +1,13 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://mohammedhaydar.com", // replace this with your deployed domain
+  website: "https://mohammedhaydar.com",
   author: "Mohammed Haydar | mohammedhaydar.com",
   desc: "Mohammed Haydar Personal Portfolio Website Where I showcase My Porjects, Work Experiences, and More...",
   title: "Mohammed Haydar",
   ogImage: "MohammedHaydar-og.jpg",
   lightAndDarkMode: true,
-  postPerPage: 3,
+  postPerPage: 5,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
 };
 

@@ -8,10 +8,8 @@ draft: false
 tags:
   - docs
   - release
-description: New feature in AstroPaper v1.4.0, introducing WordPress A Powerful Platform for E-commerce Stores for blog posts.
+description: introducing WordPress A Powerful Platform for E-commerce Stores for blog posts.
 ---
-
-<img src='https://cdn.sanity.io/images/nnrx9w3l/production/47dd8f818fcf001f18d9f0f38b817cfea55c5596-225x225.png' width='900' height='100' />
 
 ## Table of contents
 

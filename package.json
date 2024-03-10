@@ -1,5 +1,7 @@
 {
-  "name": "",
+  "name": "mohammedhaydar.com",
+  "description": "Mohammed Haydar Personal Portfolio Website Where I showcase My Porjects, Work Experiences, and More...",
+  "author": "Mohammed Haydar",
   "version": "4.2.0",
   "scripts": {
     "dev": "astro dev",

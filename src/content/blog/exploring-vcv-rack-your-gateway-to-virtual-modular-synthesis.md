@@ -1,13 +1,12 @@
 ---
 author: Mohammed Haydar
-pubDatetime: 2022-12-28T04:59:04.866Z
+pubDatetime: 2024-01-19T20:30:04.866Z
 title: Exploring VCV Rack | Your Gateway to Virtual Modular Synthesis
 slug: exploring-vcv-rack-your-gateway-to-virtual-modular-synthesis
 featured: false
 draft: false
 tags:
-  - docs
-  - release
+  - Digital Media
 description: Exploring VCV Rack | Your Gateway to Virtual Modular Synthesis
 ---
 

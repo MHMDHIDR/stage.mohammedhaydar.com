@@ -1,13 +1,13 @@
 ---
 author: Mohammed Haydar
-pubDatetime: 2022-12-28T04:59:04.866Z
+pubDatetime: 2023-12-17T13:59:04.866Z
 title: VJ Effects | Discovering Visual Creativity
 slug: vj-effects-discovering-visual-creativity
 featured: false
 draft: false
 tags:
-  - docs
-  - release
+  - VJ Effects
+  - visual-creativity
 description: VJ Effects | Discovering Visual Creativity
 ---
 

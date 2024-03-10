@@ -1,13 +1,13 @@
 ---
 author: Mohammed Haydar
-pubDatetime: 2022-12-28T04:59:04.866Z
+pubDatetime: 2023-10-14T20:59:04.866Z
 title: A Powerful Platform for E-commerce Stores
 slug: wordpress-a-powerful-platform-for-e-commerce-stores
 featured: false
 draft: false
 tags:
-  - docs
-  - release
+  - wordpress
+  - e-commerce-stores
 description: introducing WordPress A Powerful Platform for E-commerce Stores for blog posts.
 ---
 

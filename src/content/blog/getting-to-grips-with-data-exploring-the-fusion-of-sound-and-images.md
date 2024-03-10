@@ -1,13 +1,12 @@
 ---
 author: Mohammed Haydar
-pubDatetime: 2022-12-28T04:59:04.866Z
+pubDatetime: 2023-10-22T19:45:04.866Z
 title: Getting to Grips with Data | Exploring the Fusion of Sound and Images
 slug: getting-to-grips-with-data-exploring-the-fusion-of-sound-and-images
 featured: false
 draft: false
 tags:
-  - docs
-  - release
+  - Digital Media
 description: Getting to Grips with Data | Exploring the Fusion of Sound and Images
 ---
 

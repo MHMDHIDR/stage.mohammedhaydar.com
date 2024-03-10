@@ -1,13 +1,12 @@
 ---
 author: Mohammed Haydar
-pubDatetime: 2022-12-28T04:59:04.866Z
+pubDatetime: 2023-06-15T09:59:04.866Z
 title: How to install NodeJs
 slug: how-to-install-nodejs
 featured: false
 draft: false
 tags:
-  - docs
-  - release
+  - NodeJs
 description: How to install NodeJs
 ---
 

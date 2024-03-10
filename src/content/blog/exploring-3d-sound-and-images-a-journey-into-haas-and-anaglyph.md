@@ -1,13 +1,12 @@
 ---
 author: Mohammed Haydar
-pubDatetime: 2022-12-28T04:59:04.866Z
+pubDatetime: 2023-10-24T10:33:04.866Z
 title: Exploring 3D Sound and Images | A Journey into Haas and Anaglyph
 slug: exploring-3d-sound-and-images-a-journey-into-haas-and-anaglyph
 featured: false
 draft: false
 tags:
-  - docs
-  - release
+  - Digital Media
 description: Exploring 3D Sound and Images | A Journey into Haas and Anaglyph
 ---
 

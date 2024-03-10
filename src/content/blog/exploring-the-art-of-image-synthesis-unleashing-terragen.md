@@ -1,13 +1,12 @@
 ---
 author: Mohammed Haydar
-pubDatetime: 2022-12-28T04:59:04.866Z
+pubDatetime: 2023-10-23T21:59:04.866Z
 title: Exploring the Art of Image Synthesis | Unleashing Terragen
 slug: exploring-the-art-of-image-synthesis-unleashing-terragen
 featured: false
 draft: false
 tags:
-  - docs
-  - release
+  - Digital Media
 description: Exploring the Art of Image Synthesis | Unleashing Terragen
 ---
 

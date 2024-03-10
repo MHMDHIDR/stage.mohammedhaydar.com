@@ -1,13 +1,13 @@
 ---
 author: Mohammed Haydar
-pubDatetime: 2022-12-28T04:59:04.866Z
+pubDatetime: 2023-10-28T16:59:04.866Z
 title: The Intriguing World of Steganography Unveiling Hidden Messages in the Digital Age
 slug: the-intriguing-world-of-steganography-unveiling-hidden-messages-in-the-digital-age
 featured: false
 draft: false
 tags:
-  - docs
-  - release
+  - steganography
+  - hidden-messages
 description: New feature in AstroPaper v1.4.0, introducing WordPress The Intriguing World of Steganography Unveiling Hidden Messages in the Digital Age for blog posts.
 ---
 

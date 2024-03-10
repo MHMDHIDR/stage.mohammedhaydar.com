@@ -1,13 +1,13 @@
 ---
 author: Mohammed Haydar
-pubDatetime: 2022-12-28T04:59:04.866Z
+pubDatetime: 2023-11-28T15:59:04.866Z
 title: Web Design Trends 2023
 slug: web-design-trends-2023
 featured: false
 draft: false
 tags:
-  - docs
-  - release
+  - Web Design
+  - Web Apps
 description: Web Design Trends 2023 for blog posts.
 ---
 

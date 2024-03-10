@@ -1,13 +1,13 @@
 ---
 author: Mohammed Haydar
-pubDatetime: 2022-12-28T04:59:04.866Z
+pubDatetime: 2023-10-31T18:30:04.866Z
 title: Sonification | Turning Data into Sound
 slug: sonification-turning-data-into-sound
 featured: false
 draft: false
 tags:
-  - docs
-  - release
+  - data
+  - sonification
 description: Sonification | Turning Data into Sound
 ---
 

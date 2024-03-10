@@ -1,13 +1,12 @@
 ---
 author: Mohammed Haydar
-pubDatetime: 2022-12-28T04:59:04.866Z
+pubDatetime: 2023-11-18T20:59:04.866Z
 title: Sampling Theory and Compression
 slug: sampling-theory-and-compression
 featured: false
 draft: false
 tags:
-  - docs
-  - release
+  - Compression
 description: Sampling Theory and Compression
 ---
 

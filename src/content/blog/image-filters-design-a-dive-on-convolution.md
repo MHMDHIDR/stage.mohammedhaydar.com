@@ -1,13 +1,13 @@
 ---
 author: Mohammed Haydar
-pubDatetime: 2022-12-28T04:59:04.866Z
+pubDatetime: 2023-11-14T21:55:04.866Z
 title: Image Filters Design | A Dive on Convolution
 slug: image-filters-design-a-dive-on-convolution
 featured: false
 draft: false
 tags:
-  - docs
-  - release
+  - Filters
+  - Convolution
 description: Image Filters Design | A Dive on Convolution
 ---
 

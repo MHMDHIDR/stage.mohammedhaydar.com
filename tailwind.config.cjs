@@ -53,10 +53,6 @@ module.exports = {
         },
         transparent: "transparent",
       },
-      fontFamily: {
-        mono: ["IBM Plex Mono", "monospace"],
-      },
-
       typography: {
         DEFAULT: {
           css: {
@@ -69,6 +65,39 @@ module.exports = {
           },
         },
       },
+      colors: {
+        black: '#000000',
+        white: '#ffffff',
+
+        primary: '#2376EB',
+        secondary: '#7EB4ff',
+
+        body: '#BFBECB',
+        heading: '#FAFAFA',
+        placeholder: '#707070',
+
+        border: '#282828',
+
+        grey: {
+          darken: '#0B1223',
+          DEFAULT: '#0F172A',
+          lighten: '#162033'
+        }
+      },
+      fontFamily: {
+        mono: ["IBM Plex Mono", "monospace"],
+        body: ["'Radio Canada', sans-serif"],
+        display: ["'Radio Canada', sans-serif"],
+        segoe: ["'Segoe UI', sans-serif"]
+      },
+      animation: {
+        lefttoright: 'titleDeviderAnimation 3s ease-in-out infinite',
+        ledgerleftright: 'ledgerLeftRight 3s ease-in-out infinite',
+        ledgerrightleft: 'ledgerRightLeft 3s ease-in-out infinite',
+        ledgertopbottom: 'ledgerTopBottom 3s ease-in-out infinite',
+        ledgerbottomtop: 'ledgerBottomTop 3s ease-in-out infinite',
+        slidedown: 'slideDown 1s ease-in-out 1'
+      }
     },
   },
   plugins: [require("@tailwindcss/typography")],

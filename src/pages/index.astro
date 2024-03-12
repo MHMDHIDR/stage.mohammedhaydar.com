@@ -10,17 +10,13 @@ import Card from "@components/Card";
 import Socials from "@components/Socials.astro";
 import getSortedPosts from "@utils/getSortedPosts";
 import { SOCIALS } from "@config";
-import { TextGenerate } from "@components/custom/textgenerate";
 
 const posts = await getCollection("blog");
 
 const sortedPosts = getSortedPosts(posts);
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
 const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
-
 const socialCount = SOCIALS.filter(social => social.active).length;
-
-const words = `I'm a friendly and collaborative Full-stack developer who loves sports and values a healthy lifestyle.`;
 ---
 
 <Layout>
@@ -46,13 +42,12 @@ const words = `I'm a friendly and collaborative Full-stack developer who loves s
       </a>
 
       <div class="flex items-center">
-        <!-- <p class="text-justify leading-10 pr-5">
+        <p class="text-justify leading-10 pr-5">
           I'm a friendly and collaborative <strong class="underline-hover"
             >Full-stack</strong
           > developer who loves sports and values a healthy lifestyle.
-        </p> -->
-        <TextGenerate words={words} />
-        <!-- <img src="/assets/hero.png" alt="Mohammed Haydar Hero" width="250" /> -->
+        </p>
+        <img src="/assets/hero.png" alt="Mohammed Haydar Hero" width="250" />
       </div>
       <p>
         Read the blog posts or check

@@ -1,4 +1,4 @@
-<astro-fragment>
+<>
   <span id="type-writer" class="text-primary"></span>
   <script>
     const words = [
@@ -13,15 +13,14 @@
 
     function type() {
       const currentWord = words[wordIndex];
+      const typeWriter = document.getElementById("type-writer");
       let speed = 100;
 
       if (!isDeleting && letterIndex <= currentWord.length) {
-        document.getElementById("type-writer").textContent =
-          currentWord.substring(0, letterIndex);
+        typeWriter!.textContent = currentWord.substring(0, letterIndex);
         letterIndex++;
       } else if (isDeleting && letterIndex >= 0) {
-        document.getElementById("type-writer").textContent =
-          currentWord.substring(0, letterIndex);
+        typeWriter!.textContent = currentWord.substring(0, letterIndex);
         letterIndex--;
       }
 
@@ -39,4 +38,4 @@
 
     type();
   </script>
-</astro-fragment>
+</>

@@ -123,6 +123,10 @@
   pre > code {
     white-space: pre;
   }
+
+  .underline-hover {
+    @apply relative inline-block text-ellipsis before:absolute before:bottom-1 before:left-0 before:h-0.5 before:w-0 before:bg-blue-500 before:transition-all hover:before:w-full;
+  }
 }
 
 @layer components {

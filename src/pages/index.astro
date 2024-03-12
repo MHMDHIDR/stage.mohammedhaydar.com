@@ -10,6 +10,7 @@ import Card from "@components/Card";
 import Socials from "@components/Socials.astro";
 import getSortedPosts from "@utils/getSortedPosts";
 import { SOCIALS } from "@config";
+import TypeWriter from "@components/TypeWriter.astro";
 
 const posts = await getCollection("blog");
 
@@ -43,15 +44,17 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 
       <div class="flex flex-col items-center md:flex-row">
         <p class="text-justify leading-10 pr-5 order-2 md:order-1">
-          I'm a friendly and collaborative <strong class="underline-hover"
-            >Full-stack</strong
-          > developer who loves sports and values a healthy lifestyle.
+          I'm a friendly and collaborative
+          <strong class="underline-hover">
+            <TypeWriter />
+          </strong>
+          developer who loves sports and values a healthy lifestyle.
         </p>
         <img
           src="/assets/hero.png"
           alt="Mohammed Haydar Hero"
           width="250"
-          class="w-40 h-40 md:h-56 md:w-56 order-1 animate-pulse"
+          class="w-40 h-40 md:h-72 md:w-72 order-1"
         />
       </div>
       <p>

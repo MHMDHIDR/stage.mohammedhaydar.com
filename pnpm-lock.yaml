@@ -23,12 +23,21 @@ dependencies:
   framer-motion:
     specifier: ^11.0.8
     version: 11.0.8(react-dom@18.2.0)(react@18.2.0)
+  fslightbox-react:
+    specifier: ^1.7.6
+    version: 1.7.6(prop-types@15.8.1)(react-dom@18.2.0)(react@18.2.0)
   fuse.js:
     specifier: ^7.0.0
     version: 7.0.0
   github-slugger:
     specifier: ^2.0.0
     version: 2.0.0
+  lucide-react:
+    specifier: ^0.356.0
+    version: 0.356.0(react@18.2.0)
+  react-portal:
+    specifier: ^4.2.2
+    version: 4.2.2(react-dom@18.2.0)(react@18.2.0)
   react-typed:
     specifier: ^2.0.12
     version: 2.0.12(react@18.2.0)
@@ -64,12 +73,18 @@ devDependencies:
   '@tailwindcss/typography':
     specifier: ^0.5.10
     version: 0.5.10(tailwindcss@3.4.1)
+  '@types/fslightbox-react':
+    specifier: ^1.7.7
+    version: 1.7.7
   '@types/github-slugger':
     specifier: ^1.3.0
     version: 1.3.0
   '@types/react':
     specifier: ^18.2.48
     version: 18.2.65
+  '@types/react-portal':
+    specifier: ^4.0.7
+    version: 4.0.7
   '@typescript-eslint/parser':
     specifier: ^6.19.0
     version: 6.21.0(eslint@8.57.0)(typescript@5.4.2)
@@ -426,6 +441,7 @@ packages:
   /@babel/highlight@7.23.4:
     resolution: {integrity: sha512-acGdbYSfp2WheJoJm/EBBBLh/ID8KDc64ISZ9DYtBmC8/Q204PZJLHyzeB5qMzJ5trcOkybd78M4x2KWsUq++A==}
     engines: {node: '>=6.9.0'}
+    requiresBuild: true
     dependencies:
       '@babel/helper-validator-identifier': 7.22.20
       chalk: 2.4.2
@@ -1600,6 +1616,12 @@ packages:
   /@types/estree@1.0.5:
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
 
+  /@types/fslightbox-react@1.7.7:
+    resolution: {integrity: sha512-pp9Y7/+L4NFlMp+PdESx66EG0/m70aqg81FNlLP08dGWvRRSvNJFv08Jc91IEQkbh/C1PpokCekNCWZqpWxiyQ==}
+    dependencies:
+      '@types/react': 18.2.65
+    dev: true
+
   /@types/github-slugger@1.3.0:
     resolution: {integrity: sha512-J/rMZa7RqiH/rT29TEVZO4nBoDP9XJOjnbbIofg7GQKs4JIduEO3WLpte+6WeUz/TcrXKlY+bM7FYrp8yFB+3g==}
     dev: true
@@ -1637,6 +1659,12 @@ packages:
 
   /@types/react-dom@18.2.21:
     resolution: {integrity: sha512-gnvBA/21SA4xxqNXEwNiVcP0xSGHh/gi1VhWv9Bl46a0ItbTT5nFY+G9VSQpaG/8N/qdJpJ+vftQ4zflTtnjLw==}
+    dependencies:
+      '@types/react': 18.2.65
+    dev: true
+
+  /@types/react-portal@4.0.7:
+    resolution: {integrity: sha512-3zQJL6Pqcq7d73+cakVkZDqAYGFBo37XXPfahjhdScr9EdYPlf9evYilL38Fpzs1YGWz7F2SkPtN6+ygTO7ymg==}
     dependencies:
       '@types/react': 18.2.65
     dev: true
@@ -3264,6 +3292,18 @@ packages:
     requiresBuild: true
     optional: true
 
+  /fslightbox-react@1.7.6(prop-types@15.8.1)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-7LN2GZRLHo2vZGKdH+BZDJUoUDkCRCLlZ5hOwtLtZplmGZQ9nqzpG54cTax7XNjbYGTWLT6BHdMiL5zOEhiRlA==}
+    peerDependencies:
+      prop-types: '>=15.6.2'
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
+    dependencies:
+      prop-types: 15.8.1
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
+
   /function-bind@1.1.2:
     resolution: {integrity: sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==}
 
@@ -4173,6 +4213,14 @@ packages:
     dependencies:
       yallist: 4.0.0
 
+  /lucide-react@0.356.0(react@18.2.0):
+    resolution: {integrity: sha512-MDInjLrmZToccH2UxEshntujBlFwtOofGB22FN/eg39FfGVYV1TT1eMIv2j4rdaTJBpYjUuX7fEo9pwYkNFgwA==}
+    peerDependencies:
+      react: ^16.5.1 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
+    dev: false
+
   /magic-string@0.30.8:
     resolution: {integrity: sha512-ISQTe55T2ao7XtlAStud6qwYPZjE4GK1S/BeVPus4jrq6JuOnQ00YKQC581RWhR122W7msZV263KzVeLoqidyQ==}
     engines: {node: '>=12'}
@@ -4721,7 +4769,6 @@ packages:
   /object-assign@4.1.1:
     resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
     engines: {node: '>=0.10.0'}
-    dev: true
 
   /object-hash@3.0.0:
     resolution: {integrity: sha512-RSn9F68PjH9HqtltsSnqYC1XXoWe9Bju5+213R98cNGttag9q9yAOTzdbsqvIa7aNm5WffBZFpWYr2aWrklWAw==}
@@ -5183,6 +5230,14 @@ packages:
       kleur: 3.0.3
       sisteransi: 1.0.5
 
+  /prop-types@15.8.1:
+    resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      react-is: 16.13.1
+    dev: false
+
   /property-information@6.4.1:
     resolution: {integrity: sha512-OHYtXfu5aI2sS2LWFSN5rgJjrQ4pCy8i1jubJLe2QvMF8JJ++HXTUIVWFLfXJoaOfvYYjk2SN8J2wFUWIGXT4w==}
 
@@ -5238,6 +5293,21 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
+
+  /react-is@16.13.1:
+    resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
+    dev: false
+
+  /react-portal@4.2.2(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-vS18idTmevQxyQpnde0Td6ZcUlv+pD8GTyR42n3CHUQq9OHi1C4jDE4ZWEbEsrbrLRhSECYiao58cvocwMtP7Q==}
+    peerDependencies:
+      react: ^16.0.0-0 || ^17.0.0-0 || ^18.0.0-0
+      react-dom: ^16.0.0-0 || ^17.0.0-0 || ^18.0.0-0
+    dependencies:
+      prop-types: 15.8.1
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
 
   /react-refresh@0.14.0:
     resolution: {integrity: sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==}

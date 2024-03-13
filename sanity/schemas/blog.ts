@@ -1,5 +1,5 @@
 import { createSlug } from '@/lib'
-import { v4 as uuidv4 } from 'uuid'
+import { randomUUID } from 'crypto'
 
 export default {
   name: 'blogs',
@@ -11,7 +11,7 @@ export default {
       title: 'Article ID',
       type: 'string',
       validation: (Rule: { required: () => any }) => Rule.required(),
-      initialValue: () => uuidv4(),
+      initialValue: () => randomUUID(),
       hidden: true,
       readOnly: true
     },

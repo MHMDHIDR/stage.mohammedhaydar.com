@@ -73,7 +73,7 @@ const Portfolio = ({
           )}
         </div>
       </div>
-      <div className="portfolio-content mt-4">
+      <div className="portfolio-content mt-4 text-center">
         <h5 className="mb-0">{title}</h5>
         <p>{subtitle}</p>
       </div>

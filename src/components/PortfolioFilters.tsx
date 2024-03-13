@@ -49,10 +49,10 @@ const PortfolioFilters: React.FC<PortfolioFiltersProps> = ({
           key={tab._id}
           className={`${
             activeTab === tab._id ? "" : "hover:text-blue-600"
-          }relative min-w-fit max-w-fit rounded-full px-3 py-1.5 text-sm font-medium text-white outline-sky-400 transition focus-visible:outline-2 ${
+          }relative min-w-fit max-w-fit rounded-full px-3 py-1.5 text-sm font-medium text-gray-900 outline-sky-400 transition focus-visible:outline-2 dark:text-white ${
             currentFilter === tab.value
               ? "before:invisible"
-              : "btn-transparent text-blue-400 hover:text-white"
+              : "btn-transparent text-blue-400 hover:text-gray-900 dark:hover:text-white"
           }`}
           style={{
             WebkitTapHighlightColor: "transparent",

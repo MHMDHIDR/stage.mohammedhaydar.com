@@ -101,6 +101,13 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       )
     }
 
+    <div class="pt-24 portfolios-section lg:pt-28 xl:pt-32">
+      <div class="container mx-auto">
+        <SectionHeading watermark="Projects">My Projects</SectionHeading>
+        <PortfoliosSection client:only />
+      </div>
+    </div>
+
     <div class="pt-10 container mx-auto">
       <div class="mx-auto">
         <SectionHeading watermark="Resume">My Resume</SectionHeading>
@@ -112,13 +119,6 @@ const socialCount = SOCIALS.filter(social => social.active).length;
           <span class="underline-hover">View Resume</span>
         </a>
         <ResumeSection client:only />
-      </div>
-    </div>
-
-    <div class="pt-24 portfolios-section lg:pt-28 xl:pt-32">
-      <div class="container mx-auto">
-        <SectionHeading watermark="Projects">My Projects</SectionHeading>
-        <PortfoliosSection client:only />
       </div>
     </div>
 

@@ -14,8 +14,6 @@ const JobTimeline = () => {
 
   if (!data) return null
 
-  console.log(JSON.stringify(data, null, 2))
-
   return (
     <div className='job-experience'>
       <h4>
